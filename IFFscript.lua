@@ -382,3 +382,10 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 end)
+local UITab1 = win:Tab("『自然灾害黑洞』",'6031097229')
+
+local about = UITab1:section("『自然灾害黑洞』",true)
+
+about:Button("黑洞脚本",function()
+loadstring(game:HttpGet("https://pastefy.app/pYhER1z4/raw"))()
+end)
