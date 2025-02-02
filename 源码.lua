@@ -355,3 +355,11 @@ end
 
 createToggleButton()
 end)
+
+local UITab1 = win:Tab("『通用』",'6031097229')
+
+local about = UITab1:section("『通用』",true)
+
+about:Button("飞行",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JEdkPtA1"))()
+end)
