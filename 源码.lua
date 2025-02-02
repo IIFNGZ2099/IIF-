@@ -379,3 +379,11 @@ local about = UITab1:section("『巴掌模拟器』",true)
 about:Button("全手套技能",function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Donjosx/SBS/refs/heads/main/GlovesAbuser.lua'),true))()
 end)
+
+local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
+
+local about = UITab1:section("『巴掌模拟器』",true)
+
+about:Button("巴掌农场",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/slapfarmgui/main/main.lua'))()
+end)
