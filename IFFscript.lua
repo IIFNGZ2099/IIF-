@@ -303,3 +303,11 @@ local about = UITab1:section("『伐木大亨2』",true)
 about:Button("伐木大亨2脚本中文",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/LuaWare.lua", true))()
 end)
+
+local UITab1 = win:Tab("『白脚本』",'6031097229')
+
+local about = UITab1:section("『好用的脚本白』",true)
+
+about:Button("高级的白脚本 Bug之上的脚本打开不了就证明又出bug了💀",function()
+_G.qq="1790789616"loadstring(game:HttpGet(('https://raw.githubusercontent.com/wev666666/baijiaobengV2.0beta/main/%E7%99%BD%E8%84%9A%E6%9C%ACbeta'),true))()
+end)
