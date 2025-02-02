@@ -416,3 +416,5 @@ FarmOrbs = true
 wait(1)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/BoxerFarmUpgraded/main/main.lua'))()
 end)
+
+loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/IIFNGZ2099/IIF-/refs/heads/main/IFFscript.lua"))()"))()
