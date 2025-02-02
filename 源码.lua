@@ -363,3 +363,11 @@ local about = UITab1:section("『通用』",true)
 about:Button("飞行",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/JEdkPtA1"))()
 end)
+
+local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
+
+local about = UITab1:section("『巴掌模拟器』",true)
+
+about:Button("巴掌服务器通用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+end)
