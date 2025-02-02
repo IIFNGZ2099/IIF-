@@ -235,3 +235,21 @@ about:Button("汉化穿墙",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/OtherScript/main/Noclip"))()
 end)
 end)
+
+local UITab1 = win:Tab("『 BF脚本』",'6031097229')
+
+local about = UITab1:section("『BF』",true)
+
+about:Button("R开头的脚本",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+end)
+
+
+
+local UITab1 = win:Tab("『BF』",'6031097229')
+
+local about = UITab1:section("『BF』",true)
+
+about:Button("无卡密w开头的脚本",function()
+getgenv().Team = "Pirates"loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+end)
