@@ -395,3 +395,24 @@ local about = UITab1:section("『巴掌模拟器』",true)
 about:Button("获得绝大数的手套",function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Battles-KykyryzoB-Hub-SB-9008"))()
 end)
+
+local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
+
+local about = UITab1:section("『巴掌模拟器』",true)
+
+about:Button("巴掌农场需要拳套",function()
+AutoExecute = true
+
+NoCollide = false
+
+GhostInvis = true
+
+SlappleFarm = true
+
+FarmToolbox = true
+
+FarmOrbs = true
+
+wait(1)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/BoxerFarmUpgraded/main/main.lua'))()
+end)
