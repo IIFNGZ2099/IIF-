@@ -99,7 +99,7 @@ local about = UITab1:section("『巴掌模拟器』",true)
 
 about:Button("巴掌服务器通用",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
-end)
+  end)
 
 
 local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
@@ -242,7 +242,7 @@ local about = UITab1:section("『BF』",true)
 
 about:Button("R开头的脚本",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
-end)
+  end)
 
 
 
@@ -252,4 +252,37 @@ local about = UITab1:section("『BF』",true)
 
 about:Button("无卡密w开头的脚本",function()
 getgenv().Team = "Pirates"loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+end)
+
+local UITab1 = win:Tab("『SA』",'6031097229')
+
+local about = UITab1:section("『SA』",true)
+
+about:Button("打boss攻速脚本",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyouranya/free/main/Anya%20Stands%20Awakening%20Helper.lua'),true))()
+    end)
+  
+  
+  local UITab1 = win:Tab("『SA』",'6031097229')
+
+local about = UITab1:section("『SA』",true)
+
+about:Button(" 打boss范围脚本建议搭配上一个攻速",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/c6xE0n3v", true))()
+end)
+
+local UITab1 = win:Tab("『SA』",'6031097229')
+
+local about = UITab1:section("『SA』",true)
+
+about:Button("打boss脚本",function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+end)
+
+local UITab1 = win:Tab("『SA』",'6031097229')
+
+local about = UITab1:section("『SA』",true)
+
+about:Button("SA打boss脚本",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/sus/main/Loader.lua"))()
 end)
