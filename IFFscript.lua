@@ -286,3 +286,20 @@ local about = UITab1:section("『SA』",true)
 about:Button("SA打boss脚本",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/sus/main/Loader.lua"))()
 end)
+
+local UITab1 = win:Tab("『伐木大亨2』",'6031097229')
+
+local about = UITab1:section("『伐木大亨2』",true)
+
+about:Button("伐木大亨2脚本英文",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+     end)
+
+
+local UITab1 = win:Tab("『伐木大亨2』",'6031097229')
+
+local about = UITab1:section("『伐木大亨2』",true)
+
+about:Button("伐木大亨2脚本中文",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/LuaWare.lua", true))()
+end)
