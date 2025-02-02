@@ -38,9 +38,9 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "IFF脚本"; Text ="感谢大家使用IFF脚本"; Duration = 2; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "IIF脚本"; Text ="感谢大家使用IIF脚本"; Duration = 2; })
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/FengY4/XINXIWANG/refs/heads/main/IFFUi.lua"))();  
-local win = ui:new("IFF脚本中心")
+local win = ui:new("IIF脚本中心")
 
 local UITab1 = win:Tab("『信息』",'115609715105147')
 
@@ -90,4 +90,147 @@ local about = UITab1:section("『通用』",true)
 
 about:Button("飞行",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/JEdkPtA1"))()
+end)
+
+
+local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
+
+local about = UITab1:section("『巴掌模拟器』",true)
+
+about:Button("巴掌服务器通用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+end)
+
+local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
+
+local about = UITab1:section("『巴掌模拟器』",true)
+
+about:Button("全手套技能",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Donjosx/SBS/refs/heads/main/GlovesAbuser.lua'),true))()
+end)
+
+local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
+
+local about = UITab1:section("『巴掌模拟器』",true)
+
+about:Button("巴掌农场",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/slapfarmgui/main/main.lua'))()
+end)
+
+local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
+
+local about = UITab1:section("『巴掌模拟器』",true)
+
+about:Button("获得绝大数的手套",function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Battles-KykyryzoB-Hub-SB-9008"))()
+end)
+
+local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
+
+local about = UITab1:section("『巴掌模拟器』",true)
+
+about:Button("巴掌农场需要拳套",function()
+AutoExecute = true
+
+NoCollide = false
+
+GhostInvis = true
+
+SlappleFarm = true
+
+FarmToolbox = true
+
+FarmOrbs = true
+
+wait(1)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/BoxerFarmUpgraded/main/main.lua'))()
+end)
+
+local UITab1 = win:Tab("『通用』",'6031097229')
+
+local about = UITab1:section("『通用』",true)
+
+about:Button("透视",function()
+about:Button("透视",function()  
+    _G.FriendColor = Color3.fromRGB(0, 0, 255)
+        local function ApplyESP(v)
+       if v.Character and v.Character:FindFirstChildOfClass'Humanoid' then
+           v.Character.Humanoid.NameDisplayDistance = 9e9
+           v.Character.Humanoid.NameOcclusion = "NoOcclusion"
+           v.Character.Humanoid.HealthDisplayDistance = 9e9
+           v.Character.Humanoid.HealthDisplayType = "AlwaysOn"
+           v.Character.Humanoid.Health = v.Character.Humanoid.Health -- triggers changed
+       end
+    end
+    for i,v in pairs(game.Players:GetPlayers()) do
+       ApplyESP(v)
+       v.CharacterAdded:Connect(function()
+           task.wait(0.33)
+           ApplyESP(v)
+       end)
+    end
+    
+    game.Players.PlayerAdded:Connect(function(v)
+       ApplyESP(v)
+       v.CharacterAdded:Connect(function()
+           task.wait(0.33)
+           ApplyESP(v)
+       end)
+    end)
+    
+        local Players = game:GetService("Players"):GetChildren()
+    local RunService = game:GetService("RunService")
+    local highlight = Instance.new("Highlight")
+    highlight.Name = "Highlight"
+    
+    for i, v in pairs(Players) do
+        repeat wait() until v.Character
+        if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then
+            local highlightClone = highlight:Clone()
+            highlightClone.Adornee = v.Character
+            highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart")
+            highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+            highlightClone.Name = "Highlight"
+        end
+    end
+    
+    game.Players.PlayerAdded:Connect(function(player)
+        repeat wait() until player.Character
+        if not player.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then
+            local highlightClone = highlight:Clone()
+            highlightClone.Adornee = player.Character
+            highlightClone.Parent = player.Character:FindFirstChild("HumanoidRootPart")
+            highlightClone.Name = "Highlight"
+        end
+    end)
+    
+    game.Players.PlayerRemoving:Connect(function(playerRemoved)
+        playerRemoved.Character:FindFirstChild("HumanoidRootPart").Highlight:Destroy()
+    end)
+    
+    RunService.Heartbeat:Connect(function()
+        for i, v in pairs(Players) do
+            repeat wait() until v.Character
+            if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then
+                local highlightClone = highlight:Clone()
+                highlightClone.Adornee = v.Character
+                highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart")
+                highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                highlightClone.Name = "Highlight"
+                task.wait()
+            end
+    end
+    end)
+    end)
+ end)
+ 
+  
+local UITab1 = win:Tab("『通用』",'6031097229')
+
+local about = UITab1:section("『通用』",true)
+
+about:Button("穿墙",function()
+about:Button("汉化穿墙",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/OtherScript/main/Noclip"))()
+end)
 end)
