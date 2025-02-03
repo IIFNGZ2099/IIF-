@@ -446,3 +446,20 @@ local about = UITab1:section("『忍者传奇』",true)
 about:Button("不知道好不好用的忍者传奇脚本",function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Rolly-Hub-I-6-GAMES-SUPPORTED-4511"))()
 end)
+
+local UITab1 = win:Tab("『Doors』",'6031097229')
+
+local about = UITab1:section("『Doors』",true)
+
+about:Button("Doors1万年前中文版",function()
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
+end)
+
+local UITab1 = win:Tab("『Doors』",'6031097229')
+
+local about = UITab1:section("『Doors』",true)
+
+about:Button(" Doors20万年前脚本",function()
+getgenv().Spy="mspaint"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoXuAnZang/XKscript/refs/heads/main/DOORS.txt"))()
+end)
