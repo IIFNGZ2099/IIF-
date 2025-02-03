@@ -42,7 +42,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "IIF脚本"; 
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/FengY4/XINXIWANG/refs/heads/main/IFFUi.lua"))();  
 local win = ui:new("IIF脚本中心")
 
-local UITab1 = win:Tab("『信息』",'115609715105147')
+local UITab1 = win:Tab("『信息』",'6031097229')
 
 local about = UITab1:section("查看作者信息",true)
 
@@ -76,7 +76,7 @@ about:Toggle("脚本框架变小一点", "", false, function(state)
         game:GetService("CoreGui")["frosty"]:Destroy()
     end)
     
-local UITab2 = win:Tab("『公告』",'115609715105147')
+local UITab2 = win:Tab("『公告』",'6031097229')
 
 local about = UITab2:section("『公告』",true)
 
@@ -84,7 +84,7 @@ about:Label("感谢所有支持IFF脚本的人")
 about:Label("主脚本作者『我也觉得很巧』")
 about:Label("副作者『叉烧包(风御 X』")     
 
-local UITab1 = win:Tab("『通用』",'115609715105147')
+local UITab1 = win:Tab("『通用』",'6031097229')
 
 local about = UITab1:section("『通用』",true)
 
@@ -420,7 +420,7 @@ local UITab1 = win:Tab("『鱼 Fish』",'6031097229')
 local about = UITab1:section("『鱼 Fish』",true)
 
 about:Button("乌托邦",function()
- loadstring(game:HttpGet("https://pastefy.app/M1Ns2Ggo/raw"))()④XA Hub
+loadstring(game:HttpGet("https://pastefy.app/M1Ns2Ggo/raw"))()
 end)
 
 local UITab1 = win:Tab("『外网 Fish』",'6031097229')
@@ -428,8 +428,6 @@ local UITab1 = win:Tab("『外网 Fish』",'6031097229')
 local about = UITab1:section("『外网鱼脚本』",true)
 
 about:Button(" Fish英文",function()
-_G.Theme = "Dark"
---Themes: Light, Dark, Red, Mocha, Aqua and Jester
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/Fisch.lua"))()
 end)
 
@@ -439,4 +437,12 @@ local about = UITab1:section("『杀手与警察』",true)
 
 about:Button("导师送给我的",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ShenJiaoBen/ShenJiaoBen/refs/heads/main/%E6%9D%80%E6%89%8B%E4%B8%8E%E8%AD%A6%E9%95%BF%EF%BC%88%E7%9B%AE%E5%89%8D%E6%AD%A3%E5%9C%A8FIX%EF%BC%89.lua"))()
+end)
+
+local UITab1 = win:Tab("『忍者传奇』",'6031097229')
+
+local about = UITab1:section("『忍者传奇』",true)
+
+about:Button("不知道好不好用的忍者传奇脚本",function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Rolly-Hub-I-6-GAMES-SUPPORTED-4511"))()
 end)
