@@ -469,5 +469,4 @@ local UITab1 = win:Tab("『Ohio』",'6031097229')
 local about = UITab1:section("『Ohio』",true)
 
 about:Button("Ohio中文版",function()
-loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=bladeball_lite"))()
-end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/ScriptHub.lua"))()end)
