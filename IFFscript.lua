@@ -390,6 +390,7 @@ about:Button("黑洞脚本",function()
 loadstring(game:HttpGet("https://pastefy.app/pYhER1z4/raw"))()
 end)
 
+
 local UITab1 = win:Tab("『各大脚本』",'6031097229')
 
 local about = UITab1:section("『各大脚本』",true)
@@ -397,6 +398,7 @@ local about = UITab1:section("『各大脚本』",true)
 about:Button("流亡脚本",function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Oooooo5ooooo/LWang/refs/heads/main/Protected_2128420936233350.txt"))()
    end)
+   
 local UITab1 = win:Tab("『各大脚本』",'6031097229')
 
 local about = UITab1:section("『各大脚本』",true)
