@@ -420,7 +420,7 @@ local UITab1 = win:Tab("『鱼 Fish』",'6031097229')
 local about = UITab1:section("『鱼 Fish』",true)
 
 about:Button("乌托邦",function()
- loadstring(game:HttpGet("https://pastefy.app/M1Ns2Ggo/raw"))()
+ loadstring(game:HttpGet("https://pastefy.app/M1Ns2Ggo/raw"))()④XA Hub
 end)
 
 local UITab1 = win:Tab("『外网 Fish』",'6031097229')
@@ -428,5 +428,15 @@ local UITab1 = win:Tab("『外网 Fish』",'6031097229')
 local about = UITab1:section("『外网鱼脚本』",true)
 
 about:Button(" Fish英文",function()
+_G.Theme = "Dark"
+--Themes: Light, Dark, Red, Mocha, Aqua and Jester
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/Fisch.lua"))()
+end)
+
+local UITab1 = win:Tab("『杀手与警察』",'6031097229')
+
+local about = UITab1:section("『杀手与警察』",true)
+
+about:Button("导师送给我的",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ShenJiaoBen/ShenJiaoBen/refs/heads/main/%E6%9D%80%E6%89%8B%E4%B8%8E%E8%AD%A6%E9%95%BF%EF%BC%88%E7%9B%AE%E5%89%8D%E6%AD%A3%E5%9C%A8FIX%EF%BC%89.lua"))()
 end)
