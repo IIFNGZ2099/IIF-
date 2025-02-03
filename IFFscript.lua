@@ -420,7 +420,7 @@ local UITab1 = win:Tab("『鱼 Fish』",'6031097229')
 local about = UITab1:section("『鱼 Fish』",true)
 
 about:Button("乌托邦",function()
- loadstring(game:HttpGet("https://pastefy.app/M1Ns2Ggo/raw"))()
+ loadstring(game:HttpGet("https://pastefy.app/M1Ns2Ggo/raw"))()④XA Hub
 end)
 
 local UITab1 = win:Tab("『外网 Fish』",'6031097229')
@@ -428,5 +428,15 @@ local UITab1 = win:Tab("『外网 Fish』",'6031097229')
 local about = UITab1:section("『外网鱼脚本』",true)
 
 about:Button(" Fish英文",function()
+_G.Theme = "Dark"
+--Themes: Light, Dark, Red, Mocha, Aqua and Jester
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/Fisch.lua"))()
+end)
+
+local UITab1 = win:Tab("『忍者传奇』",'6031097229')
+
+local about = UITab1:section("『忍者传奇』",true)
+
+about:Button("可能不太好用👽",function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Rolly-Hub-I-6-GAMES-SUPPORTED-4511"))()
 end)
