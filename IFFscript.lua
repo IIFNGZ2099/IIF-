@@ -414,3 +414,23 @@ local about = UITab1:section("『各大脚本』",true)
 about:Button("林",function()
 lin = "作者林"lin ="林QQ群 747623342"loadstring(game:HttpGet("https://raw.githubusercontent.com/linnblin/lin/main/lin"))()
 end)
+
+
+local UITab1 = win:Tab("『鱼 Fish』",'6031097229')
+
+local about = UITab1:section("『鱼 Fish』",true)
+
+about:Button("乌托邦",function()
+ loadstring(game:HttpGet("https://pastefy.app/M1Ns2Ggo/raw"))()④XA Hub
+end)
+
+local UITab1 = win:Tab("『外网 Fish』",'6031097229')
+
+local about = UITab1:section("『外网鱼脚本』",true)
+
+about:Button(" Fish英文",function()
+_G.Theme = "Dark"
+--Themes: Light, Dark, Red, Mocha, Aqua and Jester
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/Fisch.lua"))()
+end)
