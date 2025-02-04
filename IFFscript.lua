@@ -454,3 +454,19 @@ about:Button(" Doors20万年前脚本",function()
 getgenv().Spy="mspaint"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoXuAnZang/XKscript/refs/heads/main/DOORS.txt"))()
 end)
+
+local UITab1 = win:Tab("『战争大亨』",'6031097229')
+
+local about = UITab1:section("『战争大亨』",true)
+
+about:Button("战争大亨透视脚本锁头",function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Gripen-War-Tycoon-White-hub-beta-28323"))()
+end)
+
+local UITab1 = win:Tab("『战争大亨』",'6031097229')
+
+local about = UITab1:section("『战争大亨』",true)
+
+about:Button("无卡密但不知道好不好用",function()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/Macintosh1983/ChillHubMain/main/ChillHubOilWarfareTycoon.lua')()
+end)
