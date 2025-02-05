@@ -466,3 +466,19 @@ end)
 about:Button("无卡密但不知道好不好用",function()
 loadstring(game:HttpGet'https://raw.githubusercontent.com/Macintosh1983/ChillHubMain/main/ChillHubOilWarfareTycoon.lua')()
 end)
+
+local UITab1 = win:Tab("『最强战场』",'6031097229')
+
+local about = UITab1:section("『最强战场』",true)
+
+about:Button("粘到别人脚底下卡密：RoscriptsOnTop",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealOfficialSkully/Smm/main/Smm"))()
+end)
+
+local UITab1 = win:Tab("『最强战场』",'6031097229')
+
+local about = UITab1:section("『最强战场』",true)
+
+about:Button("tsb虚空杀脚本",function()
+loadstring(game:HttpGet("https://pastefy.app/afHQ7oyj/raw"))()
+end)
