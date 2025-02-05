@@ -490,3 +490,11 @@ local about = UITab1:section("『河北唐县』",true)
 about:Button("河北唐县-皮",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/Pi-script-Hebeitangxian.lua"))()
 end)
+
+local UITab1 = win:Tab("『河北唐县』",'6031097229')
+
+local about = UITab1:section("『河北唐县』",true)
+
+about:Button("河北唐县-叶",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/YE%20SCRIPT-Tang%20County%2C%20Hebei.lua"))()
+end)
