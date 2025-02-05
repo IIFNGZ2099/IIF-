@@ -498,3 +498,27 @@ local about = UITab1:section("『河北唐县』",true)
 about:Button("河北唐县-叶",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/YE%20SCRIPT-Tang%20County%2C%20Hebei.lua"))()
 end)
+
+local UITab1 = win:Tab("『监狱人生』",'6031097229')
+
+local about = UITab1:section("『监狱人生』",true)
+
+about:Button("监狱人生黑人管理菜单部分英文",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/LnAUPBXj",true))()
+end)
+
+local UITab1 = win:Tab("『监狱人生』",'6031097229')
+
+local about = UITab1:section("『监狱人生』",true)
+
+about:Button("监狱人生英文挺强的",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+end)
+
+local UITab1 = win:Tab("『监狱人生』",'6031097229')
+
+local about = UITab1:section("『监狱人生』",true)
+
+about:Button("新菜单",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/LiverMods/xRawnder/main/HubMoblie'))()
+end)
