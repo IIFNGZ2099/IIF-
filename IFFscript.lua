@@ -49,7 +49,7 @@ local about = UITab1:section("查看作者信息",true)
 about:Label("IIF脚本中心")
 about:Label("『IIF脚本作者』")
 about:Button("点击复制作者的QQ号",function()
-setclipboard("1207099440")
+setclipboard("991829714")
 end)
 about:Label("风御QQ号")
 about:Button("点击复制QQ号",function()
@@ -481,4 +481,12 @@ local about = UITab1:section("『最强战场』",true)
 
 about:Button("tsb虚空杀脚本",function()
 loadstring(game:HttpGet("https://pastefy.app/afHQ7oyj/raw"))()
+end)
+
+local UITab1 = win:Tab("『河北唐县』",'6031097229')
+
+local about = UITab1:section("『河北唐县』",true)
+
+about:Button("河北唐县-皮",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/Pi-script-Hebeitangxian.lua"))()
 end)
