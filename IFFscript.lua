@@ -530,6 +530,8 @@ about:Button("中文汉化好用的脚本",function()
 local SCC_CharPool={[1]= tostring(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,51,55,116,67,82,116,117,109})end)()))}loadstring(game:HttpGet(SCC_CharPool[1]))()
 end)
 
+local about = UITab10:section("『整合』",true)
+
 about:Button("火箭发射模拟器1",function()
 loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/9245/%E7%8C%AB%E9%80%9A%E7%94%A8.txt?sign=hrWROZdVfK2mtJcIFa3Tvbl-TojP1C86_Zd3q03qttc%3D%3A0"))()
 end)
