@@ -147,6 +147,22 @@ wait(1)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/BoxerFarmUpgraded/main/main.lua'))()
 end)
 
+local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
+
+local about = UITab1:section("『巴掌模拟器』",true)
+
+about:Button("巴掌模拟器一键获得  水",function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dusty1234567890/Book/main/Water")))()
+end)
+
+local UITab1 = win:Tab("『巴掌模拟器』",'6031097229')
+
+local about = UITab1:section("『巴掌模拟器』",true)
+
+about:Button("巴掌模拟器一键获得  时钟",function()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/Dusty1234567890/NewGloves/refs/heads/main/Clock')()
+end)
+
 local UITab1 = win:Tab("『通用』",'6031097229')
 
 local about = UITab1:section("『通用』",true)
@@ -530,16 +546,10 @@ about:Button("中文汉化好用的脚本",function()
 local SCC_CharPool={[1]= tostring(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,51,55,116,67,82,116,117,109})end)()))}loadstring(game:HttpGet(SCC_CharPool[1]))()
 end)
 
-local about = UITab10:section("『整合』",true)
+local UITab1 = win:Tab("『Dig it』",'6031097229')
 
-about:Button("火箭发射模拟器1",function()
-loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/9245/%E7%8C%AB%E9%80%9A%E7%94%A8.txt?sign=hrWROZdVfK2mtJcIFa3Tvbl-TojP1C86_Zd3q03qttc%3D%3A0"))()
-end)
+local about = UITab1:section("『Dig ti』",true)
 
-about:Button("火箭发射模拟器2",function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/321_blast_off_simulator')))()
-end)
-
-about:Button("火箭发射模拟器3",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/jm-/refs/heads/main/jm%E7%81%AB%E7%AE%AD%E5%8F%91%E5%B0%84%E9%87%8D%E5%81%9A(1).lua"))()
+about:Button("需要卡密，但很简单",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/loader", true))()
 end)
