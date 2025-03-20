@@ -1316,7 +1316,7 @@ about:Button("需要卡密，但很简单",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/loader", true))()
 end)
 
-local UITab8 = win:Tab("『超级大力士模拟器』",'339994')
+local UITab8 = win:Tab("『超级大力士模拟器』",'1738810101983')
 
 local about = UITab8:section("『超级大力士模拟器』",true)
     
