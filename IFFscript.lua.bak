@@ -59,7 +59,6 @@ about:Label("作者：我也觉得好巧")
 about:Label("感谢大家游玩IIF脚本更感谢我的导师叉烧包")
 about:Label("本脚本持续更新")
 about:Label("感谢大家支持IIF脚本👍")
-about:Label("已经更新了好几次了，可是还是没有什么人玩，能不能帮忙推荐一下呀")
 
 local about = UITab1:section("查看玩家信息",true)
 
