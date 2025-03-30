@@ -408,6 +408,22 @@ about:Button("巴掌模拟器一键获得  时钟",function()
 loadstring(game:HttpGet'https://raw.githubusercontent.com/Dusty1234567890/NewGloves/refs/heads/main/Clock')()
 end)
 
+about:Button("双人合作获得BOB",function()
+local executedCount = 0  -- 用于记录已经执行的次数
+while true do
+    local args = {
+        [1] = true
+    }
+    game:GetService("ReplicatedStorage").Duplicate:FireServer(unpack(args))
+    task.wait(0.01)  -- 每次循环后暂停 0.01 秒，这个时间可根据实际情况调整
+    executedCount = executedCount + 1
+    if executedCount == 6000 then
+        print("已经成功执行了 6000 次！")
+        -- 在这里你还可以添加其他当执行 6000 次后想做的操作
+    end
+end
+end)
+
 about:Toggle("无CD","Toggle" ,false, function(Value)
     local player = game.Players.LocalPlayer
     local character = player.Character or player.CharacterAdded:Wait()
