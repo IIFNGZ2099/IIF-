@@ -1577,3 +1577,15 @@ end)
 about:Button("力量传奇改力量",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
 end)
+
+local UITab1 = win:Tab("『evade逃脱』",'6031097229')
+
+local about = UITab1:section("『evade逃脱』",true)
+
+about:Button("如果倒地了，点击一下就可以复活",function()
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage").Events.Player.ChangePlayerMode:FireServer(unpack(args))
+end)
