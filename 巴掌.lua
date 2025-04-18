@@ -39,7 +39,7 @@ end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "IIF v1.3脚本"; Text ="感谢大家使用IIF v1.3脚本"; Duration = 2; })
-local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/IIFNGZ2099/IIF-/refs/heads/main/IIF%E7%9A%84Ui%E6%BA%90%E7%A0%81(1).lua"))();  
+local ui = loadstring(game:HttpGet("https://github.com/IIFNGZ2099/IIF-/blob/main/%E5%B7%B4%E6%8E%8C.lua"))();  
 local win = ui:new("IIF v1.3脚本中心")
 
 local UITab1 = win:Tab("『信息』",'6031097229')
