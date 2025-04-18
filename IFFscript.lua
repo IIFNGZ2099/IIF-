@@ -1589,3 +1589,23 @@ local args = {
 
 game:GetService("ReplicatedStorage").Events.Player.ChangePlayerMode:FireServer(unpack(args))
 end)
+
+local UITab1 = win:Tab("『死铁轨』",'6031097229')
+
+local about = UITab1:section("『死铁轨』",true)
+
+about:Button("小狗",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
+end)
+
+about:Button("要卡密寂寞",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua"))()
+end)
+
+about:Button(" B站",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iopjklbnmsss/SansHubScript/refs/heads/main/SansHub"))()
+end)
+
+about:Button(" Wtd",function()
+loadstring(game:HttpGet('https://pastefy.app/w72aJbvr/raw'))()
+end)
