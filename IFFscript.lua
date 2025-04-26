@@ -1609,3 +1609,6 @@ end)
 about:Button(" Wtd",function()
 loadstring(game:HttpGet('https://pastefy.app/w72aJbvr/raw'))()
 end)
+
+about:Button("自动刷卷",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/autobond"))()
