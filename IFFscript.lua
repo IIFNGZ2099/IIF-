@@ -1613,3 +1613,11 @@ end)
 about:Button("自动刷卷",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/autobond"))()
 end)
+
+local UITab1 = win:Tab("『未命名的拳击手』",'6031097229')
+
+local about = UITab1:section("『未命名的拳击手』",true)
+
+about:Button("油管红豆v0.5",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/pid4k/scripts/refs/heads/main/untitledboxinggame.lua', true))()
+end)
