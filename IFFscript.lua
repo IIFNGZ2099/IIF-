@@ -1621,3 +1621,93 @@ local about = UITab1:section("『未命名的拳击手』",true)
 about:Button("油管红豆v0.5",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/pid4k/scripts/refs/heads/main/untitledboxinggame.lua', true))()
 end)
+
+local UITab1 = win:Tab("『活到第7天』",'6031097
+
+local about = UITab1:section("『活到第7天』",true)
+
+about:Toggle("自动互动", "Auto Interact", false, function(state)
+        if state then
+            autoInteract = true
+            while autoInteract do
+                for _, descendant in pairs(workspace:GetDescendants()) do
+                    if descendant:IsA("ProximityPrompt") then
+                        fireproximityprompt(descendant)
+                    end
+                end
+                task.wait(0.25) -- Adjust the wait time as needed
+            end
+        else
+            autoInteract = false
+        end
+    end)
+    
+about:Button("快速砍树",function()
+local replicatedStorage = game:GetService("ReplicatedStorage")
+local swingAxeRemote = replicatedStorage.remotes.swing_axe
+
+while true do
+    swingAxeRemote:FireServer()
+    wait(0.01)  -- 进一步缩短等待时间，让循环更快，但也可能增加服务器压力，需根据实际调整
+end
+
+end)
+
+about:Button("指哪里射哪里",function()
+-- 提前获取 ReplicatedStorage 服务
+local replicatedStorage = game:GetService("ReplicatedStorage")
+local shootRemote = replicatedStorage.remotes.shoot
+
+-- 获取玩家和玩家的相机
+local player = game.Players.LocalPlayer
+local camera = workspace.CurrentCamera
+
+-- 定义每次发射的距离
+local radius = 1.0  
+-- 定义每次旋转的角度（弧度制），这里先不用，因为是根据准星方向
+local angleIncrement = math.pi / 18  
+
+-- 获取用户输入服务
+local userInputService = game:GetService("UserInputService")
+
+while true do
+    -- 获取鼠标位置
+    local mouse = player:GetMouse()
+    local screenPoint = Vector2.new(mouse.X, mouse.Y)
+
+    -- 将屏幕坐标转换为 3D 世界坐标（射线检测）
+    local rayOrigin = camera.CFrame.Position
+    local rayDirection = camera.CFrame:VectorToWorldSpace(Vector3.new(0, 0, -1))
+    local rayParams = RaycastParams.new()
+    rayParams.FilterType = Enum.RaycastFilterType.Blacklist
+    rayParams.FilterDescendantsInstances = {player.Character}
+
+    local rayResult = workspace:Raycast(rayOrigin, rayDirection * 1000, rayParams)
+    local targetPosition
+    if rayResult then
+        targetPosition = rayResult.Position
+    else
+        targetPosition = rayOrigin + rayDirection * 1000
+    end
+
+    local x = targetPosition.x
+    local y = targetPosition.y
+    local z = targetPosition.z
+
+    local cframe1 = CFrame.new(x, y, z) * CFrame.Angles(-3.0806689262390137, 0.2810191512107849, 3.124941110610962)
+    local cframe2 = CFrame.new(x + 1.0, y - 0.9, z + 2.45) * CFrame.Angles(-3.122143507003784, 0.1626911610364914, 3.1351170539855957)
+
+    local args = {
+        [1] = cframe1,
+        [2] = cframe2
+    }
+
+    shootRemote:FireServer(unpack(args))
+
+    -- 适当减少等待时间来加快循环速度，但要注意服务器负载，这里设为 0.001 秒，可根据实际调整
+    wait(0.001) 
+end
+
+end)
+
+
