@@ -1625,22 +1625,6 @@ end)
 local UITab1 = win:Tab("『活到第7天』",'6031097
 
 local about = UITab1:section("『活到第7天』",true)
-
-about:Toggle("自动互动", "Auto Interact", false, function(state)
-        if state then
-            autoInteract = true
-            while autoInteract do
-                for _, descendant in pairs(workspace:GetDescendants()) do
-                    if descendant:IsA("ProximityPrompt") then
-                        fireproximityprompt(descendant)
-                    end
-                end
-                task.wait(0.25) -- Adjust the wait time as needed
-            end
-        else
-            autoInteract = false
-        end
-    end)
     
 about:Button("快速砍树",function()
 local replicatedStorage = game:GetService("ReplicatedStorage")
