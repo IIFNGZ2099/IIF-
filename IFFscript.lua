@@ -1634,7 +1634,6 @@ while true do
     swingAxeRemote:FireServer()
     wait(0.01)  -- 进一步缩短等待时间，让循环更快，但也可能增加服务器压力，需根据实际调整
 end
-
 end)
 
 about:Button("指哪里射哪里",function()
@@ -1691,7 +1690,6 @@ while true do
     -- 适当减少等待时间来加快循环速度，但要注意服务器负载，这里设为 0.001 秒，可根据实际调整
     wait(0.001) 
 end
-
 end)
 
 
