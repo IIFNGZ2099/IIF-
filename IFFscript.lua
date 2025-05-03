@@ -1021,7 +1021,7 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 end)
-local UITab1 = win:Tab("『自然灾害黑洞』",'6031097229')
+local UITab1 = win:Tab("『自然灾害黑洞』",'123303751467922')
 
 local about = UITab1:section("『自然灾害黑洞』",true)
 
@@ -1436,7 +1436,7 @@ about:Button("传送到下水道区域", function()
                   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.36086654663086, 12.25178050994873, 17656.04296875)
     end)
 
-local UITab9 = win:Tab("『河北唐县』",'7734068321')
+local UITab9 = win:Tab("『河北唐县』",'75185651600701')
 
 local about = UITab9:section("『河北唐县』",true)
 
