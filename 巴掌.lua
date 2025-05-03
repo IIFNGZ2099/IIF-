@@ -38,16 +38,16 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "IIF v1.3脚本"; Text ="感谢大家使用IIF v1.3脚本"; Duration = 2; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "IIF死铁轨"; Text ="感谢大家使用IIF死铁轨脚本"; Duration = 2; })
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/IIFNGZ2099/IIF-/refs/heads/main/IIF%E7%9A%84Ui%E6%BA%90%E7%A0%81(1).lua"))();  
-local win = ui:new("IIF v1.3脚本中心")
+local win = ui:new("IIF死铁鬼脚本中心")
 
 local UITab1 = win:Tab("『信息』",'6031097229')
 
 local about = UITab1:section("查看作者信息",true)
 
-about:Label("IIF v1.3脚本中心")
-about:Label("『IIF v1.3脚本作者』")
+about:Label("IIF死铁轨脚本中心")
+about:Label("『IIF死铁轨脚本作者』")
 about:Button("点击复制作者的QQ号",function()
 setclipboard("991829714")
 end)
@@ -84,3 +84,21 @@ local about = UITab2:section("『公告』",true)
 about:Label("感谢所有支持IIF脚本的人")
 about:Label("主脚本作者『我也觉得很巧』")
 about:Label("副作者『叉烧包(风御 X』")
+
+local UITab1 = win:Tab("『死铁轨』",'6031097229')
+
+about:Button("死铁轨",function()
+脚本链接
+end)
+
+about:Button("最新刷票子",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
+end)
+
+about:Button("某蓝色有飞行带卡密",function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-Dead-Rails-OP-KiciaHook-Script-Fastest-Auto-Farm-35961"))()
+end)
+
+about:Button("飞行不拉回",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/DeadrailsTrial/Deadrails%20Trial%20V2"))()
+end)
