@@ -899,7 +899,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/OtherScri
 end)
 end)
 
-local UITab1 = win:Tab("『 BF脚本』",'6031097229')
+local UITab1 = win:Tab("『 BF脚本』",'79951360331133')
 
 local about = UITab1:section("『BF』",true)
 
@@ -911,7 +911,7 @@ about:Button("无卡密w开头的脚本",function()
 getgenv().Team = "Pirates"loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
 end)
 
-local UITab1 = win:Tab("『SA』",'6031097229')
+local UITab1 = win:Tab("『SA』",'76678953352170')
 
 local about = UITab1:section("『SA』",true)
 
@@ -931,7 +931,7 @@ about:Button("SA打boss脚本",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/sus/main/Loader.lua"))()
 end)
 
-local UITab1 = win:Tab("『伐木大亨2』",'6031097229')
+local UITab1 = win:Tab("『伐木大亨2』",'72843415526380')
 
 local about = UITab1:section("『伐木大亨2』",true)
 
@@ -943,7 +943,7 @@ about:Button("伐木大亨2脚本中文",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/LuaWare.lua", true))()
 end)
 
-local UITab1 = win:Tab("『白脚本』",'6031097229')
+local UITab1 = win:Tab("『白脚本』",'129820635160634')
 
 local about = UITab1:section("『好用的脚本白』",true)
 
@@ -1098,7 +1098,7 @@ about:Button("林",function()
 lin = "作者林"lin ="林QQ群 747623342"loadstring(game:HttpGet("https://raw.githubusercontent.com/linnblin/lin/main/lin"))()
 end)
 
-local UITab1 = win:Tab("『鱼 Fish』",'6031097229')
+local UITab1 = win:Tab("『鱼 Fish』",'97947851433456')
 
 local about = UITab1:section("『鱼 Fish』",true)
 
@@ -1110,22 +1110,14 @@ about:Button(" Fish英文",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/Fisch.lua"))()
 end)
 
-local UITab1 = win:Tab("『杀手与警察』",'6031097229')
-
-local about = UITab1:section("『杀手与警察』",true)
-
-about:Button("导师送给我的",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ShenJiaoBen/ShenJiaoBen/refs/heads/main/%E6%9D%80%E6%89%8B%E4%B8%8E%E8%AD%A6%E9%95%BF%EF%BC%88%E7%9B%AE%E5%89%8D%E6%AD%A3%E5%9C%A8FIX%EF%BC%89.lua"))()
-end)
-
-local UITab1 = win:Tab("『忍者传奇』",'6031097229')
+local UITab1 = win:Tab("『忍者传奇』",'116926565208108')
 
 local about = UITab1:section("『忍者传奇』",true)
 
 about:Button("不知道好不好用的忍者传奇脚本",function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Rolly-Hub-I-6-GAMES-SUPPORTED-4511"))()
 end)
-local UITab1 = win:Tab("『Doors』",'6031097229')
+local UITab1 = win:Tab("『Doors』",'87975721069686')
 
 local about = UITab1:section("『Doors』",true)
 
@@ -1133,7 +1125,7 @@ about:Button(" Doors20万年前脚本",function()
 loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\76\88\51\49\56\47\76\88\47\109\97\105\110\47\76\88\37\50\48\50\46\108\117\97\0"))()
 end)
 
-local UITab1 = win:Tab("『战争大亨』",'6031097229')
+local UITab1 = win:Tab("『战争大亨』",'97001718566439')
 
 local about = UITab1:section("『战争大亨』",true)
 
@@ -1193,7 +1185,7 @@ about:Button("战争大亨12",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/megamoeus/UI-Engine-V2/main/OWTPublic"))()
 end)
 
-local UITab1 = win:Tab("『最强战场』",'6031097229')
+local UITab1 = win:Tab("『最强战场』",'104305363154481')
 
 local about = UITab1:section("『最强战场』",true)
 
@@ -1205,7 +1197,7 @@ about:Button("tsb虚空杀脚本",function()
 loadstring(game:HttpGet("https://pastefy.app/afHQ7oyj/raw"))()
 end)
 
-local UITab1 = win:Tab("『河北唐县』",'6031097229')
+local UITab1 = win:Tab("『河北唐县』",'75185651600701')
 
 local about = UITab1:section("『河北唐县』",true)
 
@@ -1300,7 +1292,7 @@ end)
 
 about:Label("第一个刷钱和第二个是不同的 一个不能用 可以用另一个")
 
-local UITab1 = win:Tab("『监狱人生』",'6031097229')
+local UITab1 = win:Tab("『监狱人生』",'130598687725760')
 
 local about = UITab1:section("『监狱人生』",true)
 
@@ -1316,7 +1308,7 @@ about:Button("新菜单",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/LiverMods/xRawnder/main/HubMoblie'))()
 end)
 
-local UITab1 = win:Tab("『GB』",'6031097229')
+local UITab1 = win:Tab("『GB』",'96742478010816')
 
 local about = UITab1:section("『GB』",true)
 
@@ -1324,7 +1316,7 @@ about:Button("中文汉化好用的脚本",function()
 local SCC_CharPool={[1]= tostring(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,51,55,116,67,82,116,117,109})end)()))}loadstring(game:HttpGet(SCC_CharPool[1]))()
 end)
 
-local UITab1 = win:Tab("『Dig it』",'6031097229')
+local UITab1 = win:Tab("『Dig it』",'134964481941769')
 
 local about = UITab1:section("『Dig ti』",true)
 
@@ -1332,7 +1324,7 @@ about:Button("需要卡密，但很简单",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/loader", true))()
 end)
 
-local UITab8 = win:Tab("『超级大力士模拟器』",'8932036109')
+local UITab8 = win:Tab("『超级大力士模拟器』",'131618946289350')
 
 local about = UITab8:section("『超级大力士模拟器』",true)
     
@@ -1464,7 +1456,7 @@ about:Button("传送到火锅店", function()
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5912.84765625, 12.217276573181152, 1058.29443359375)
 end)
  
- local UITab1 = win:Tab("『力量传奇』",'7734068321')
+ local UITab1 = win:Tab("『力量传奇』",'100576730803340')
 
 local about = UITab1:section("『力量传奇』",true)
 
@@ -1578,7 +1570,7 @@ about:Button("力量传奇改力量",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
 end)
 
-local UITab1 = win:Tab("『evade逃脱』",'6031097229')
+local UITab1 = win:Tab("『evade逃脱』",'137422788578025')
 
 local about = UITab1:section("『evade逃脱』",true)
 
@@ -1590,7 +1582,7 @@ local args = {
 game:GetService("ReplicatedStorage").Events.Player.ChangePlayerMode:FireServer(unpack(args))
 end)
 
-local UITab1 = win:Tab("『死铁轨』",'6031097229')
+local UITab1 = win:Tab("『死铁轨』",'138837696529548')
 
 local about = UITab1:section("『死铁轨』",true)
 
