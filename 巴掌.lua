@@ -87,9 +87,7 @@ about:Label("副作者『叉烧包(风御 X』")
 
 local UITab1 = win:Tab("『死铁轨』",'6031097229')
 
-about:Button("死铁轨",function()
-脚本链接
-end)
+local about = UITab1:section("『文字』",true)
 
 about:Button("最新刷票子",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
