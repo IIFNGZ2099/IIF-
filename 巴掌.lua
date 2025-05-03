@@ -90,7 +90,7 @@ local UITab1 = win:Tab("『死铁轨』",'6031097229')
 local about = UITab1:section("『死铁轨』",true)
 
 about:Button("最新刷票子",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))()
 end)
 
 about:Button("某蓝色有飞行带卡密",function()
