@@ -1456,7 +1456,7 @@ about:Button("传送到火锅店", function()
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5912.84765625, 12.217276573181152, 1058.29443359375)
 end)
  
- local UITab1 = win:Tab("『力量传奇』",'100576730803340')
+ local UITab1 = win:Tab("『力量传奇』",'127747433884973')
 
 local about = UITab1:section("『力量传奇』",true)
 
@@ -1606,7 +1606,7 @@ about:Button("自动刷卷",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/autobond"))()
 end)
 
-local UITab1 = win:Tab("『未命名的拳击手』",'6031097229')
+local UITab1 = win:Tab("『未命名的拳击手』",'127960551060150')
 
 local about = UITab1:section("『未命名的拳击手』",true)
 
