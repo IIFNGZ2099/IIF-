@@ -55,7 +55,7 @@ about:Label("风御QQ号")
 about:Button("点击复制QQ号",function()
 setclipboard("1926190957")
 end)
-about:Label("作者：我也觉得好巧")
+about:Label("作者：我也觉得好巧支持给于脚本：Q：2896007258白星星")
 about:Label("感谢大家游玩IIF脚本更感谢我的导师叉烧包")
 about:Label("本脚本持续更新")
 about:Label("感谢大家支持IIF脚本👍")
@@ -1121,8 +1121,8 @@ local UITab1 = win:Tab("『Doors』",'87975721069686')
 
 local about = UITab1:section("『Doors』",true)
 
-about:Button(" Doors20万年前脚本",function()
-loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\76\88\51\49\56\47\76\88\47\109\97\105\110\47\76\88\37\50\48\50\46\108\117\97\0"))()
+about:Button("由白星星提供",function()
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
 end)
 
 local UITab1 = win:Tab("『战争大亨』",'97001718566439')
@@ -1614,4 +1614,11 @@ about:Button("油管红豆v0.5",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/pid4k/scripts/refs/heads/main/untitledboxinggame.lua', true))()
 end)
 
+local UITab1 = win:Tab("『战争机器』",'127773144650498')
+
+local about = UITab1:section("『战争机器』",true)
+
+about:Button("自动飞行刷钱",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/n9qfyp0Y"))()
+end)
 
