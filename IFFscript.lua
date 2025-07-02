@@ -1622,3 +1622,10 @@ about:Button("自动飞行刷钱",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/n9qfyp0Y"))()
 end)
 
+local UITab1 = win:Tab("『New Cars!] VehicleLegends o0! Cars!』",'122171690766059')
+
+local about = UITab1:section("『New Cars!] VehicleLegends o0! Cars!』",true)
+
+about:Button("需要卡密功能较多",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/Vehicle%20legends"))()
+end)
