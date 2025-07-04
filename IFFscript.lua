@@ -1715,7 +1715,7 @@ while true do
 end
 end)
 
-local UITab1 = win:Tab("『餐厅大亨2』",'6031097229')
+local UITab1 = win:Tab("『餐厅大亨2』",'86195665707663')
 
 local about = UITab1:section("『餐厅大亨2』",true)
 
