@@ -1738,3 +1738,11 @@ end)
 about:Button("油关要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/elgato/a/Loader"))()
 end)
+
+local UITab1 = win:Tab("『(SALEEN S7 + 4TH OF JULY!) Greenville』",'82966931882522')
+
+local about = UITab1:section("『(SALEEN S7 + 4TH OF JULY!) Greenville』",true)
+
+about:Button("英文自动农场要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8643/test/main/green"))()
+end)
