@@ -1746,3 +1746,11 @@ local about = UITab1:section("『(SALEEN S7 + 4TH OF JULY!) Greenville』",true)
 about:Button("英文自动农场要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8643/test/main/green"))()
 end)
+
+local UITab1 = win:Tab("『汽车破坏机2』",'70578822456650')
+
+local about = UITab1:section("『汽车破坏机2』",true)
+
+about:Button("功能较齐全外网大神制作",function()
+loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/49f02b0d8c1f60207c84ae76e12abc1e.lua'))()
+end)
