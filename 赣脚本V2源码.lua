@@ -324,7 +324,7 @@ local function CreateGUI(title)
  print("1") 
  end 
  
- local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/IIFNGZ2099/IIF-/refs/heads/main/IIF%E7%9A%84Ui%E6%BA%90%E7%A0%81(1).lua"))()
+ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/IIFNGZ2099/IIF-/refs/heads/main/IIF%E7%9A%84Ui%E6%BA%90%E7%A0%81(1).lua"))();  
 ----------------------------------------------------------------------------------------------------------------------------------------
 local window = library:new("赣脚本V2")--V2
 ----------------------------------------------------------------------------------------------------------------------------------------
