@@ -1754,3 +1754,15 @@ local about = UITab1:section("『汽车破坏机2』",true)
 about:Button("功能较齐全外网大神制作",function()
 loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/49f02b0d8c1f60207c84ae76e12abc1e.lua'))()
 end)
+
+local UITab1 = win:Tab("『驾驶帝国』",'79958207426262')
+
+local about = UITab1:section("『驾驶帝国』",true)
+
+about:Button("要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenniel123/Driving-Empire/refs/heads/main/Driving%20Empire%20AutoFarm%20Freemium"))()
+end)
+
+about:Button("不需要卡密",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/Lightux/main/README.md'),true))()
+end)
