@@ -138,7 +138,7 @@ GunHook = hookmetamethod(game, "__namecall", function(self, ...)
         end;
         return GunHook(self, unpack(args));
 end);
-local library = loadstring(game:HttpGet("https://github.com/IIFNGZ2099/IIF-/blob/main/MIB%20UI.LUA"))()
+local library = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------
 local window = library:new("脚本")--V1
 ----------------------------------------------------------------------------------------------------------------------------------------
