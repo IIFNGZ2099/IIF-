@@ -1764,5 +1764,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenniel123/Driving-Em
 end)
 
 about:Button("不需要卡密",function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/Lightux/main/README.md'),true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/RTSSx6Yk"))()
 end)
