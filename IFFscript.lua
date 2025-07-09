@@ -1766,3 +1766,15 @@ end)
 about:Button("不需要卡密",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/RTSSx6Yk"))()
 end)
+
+local UITab1 = win:Tab("『一路向西』",'106992945201087')
+
+local about = UITab1:section("『一路向西』",true)
+
+about:Button("一路向西SH",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/westbound.pro-Utilites/main/Main.lua"))()
+end)
+
+about:Button("自动刷钱一小时大概100万",function()
+loadstring(game:HttpGet("https://pastebin.com/r..."))()
+end)
