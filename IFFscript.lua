@@ -1778,3 +1778,15 @@ end)
 about:Button("自动刷钱一小时大概100万",function()
 loadstring(game:HttpGet("https://pastebin.com/r..."))()
 end)
+
+local UITab1 = win:Tab("『鱿鱼游戏』",'138948762420025')
+
+local about = UITab1:section("『鱿鱼游戏』",true)
+
+about:Button("不需要卡密好用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua"))()
+end)
+
+about:Button("需要卡密功能未知😱",function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))()
+end)
