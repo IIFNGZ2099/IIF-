@@ -1,56 +1,44 @@
-game:GetService("Players").LocalPlayer.Idled:connect(function()
-game:GetService("VirtualUser"):CaptureController()
-game:GetService("VirtualUser"):ClickButton2(Vector2.new())
-end)
- 
-local dropdown = {}
-local playernamedied = ""
+local LBLG = Instance.new("ScreenGui", getParent)
+local LBL = Instance.new("TextLabel", getParent)
+local player = game.Players.LocalPlayer
 
-for i, player in pairs(game.Players:GetPlayers()) do
-    dropdown[i] = player.Name
-end
-local LS = {
-    playernamedied = "",
-    dropdown = {},
-    sayCount = 1,
-    sayFast = false,
-    autoSay = false,
-}
+LBLG.Name = "LBLG"
+LBLG.Parent = game.CoreGui
+LBLG.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+LBLG.Enabled = true
+LBL.Name = "LBL"
+LBL.Parent = LBLG
+LBL.BackgroundColor3 = Color3.new(1, 1, 1)
+LBL.BackgroundTransparency = 1
+LBL.BorderColor3 = Color3.new(0, 0, 0)
+LBL.Position = UDim2.new(0.75,0,0.010,0)
+LBL.Size = UDim2.new(0, 133, 0, 30)
+LBL.Font = Enum.Font.GothamSemibold
+LBL.Text = "TextLabel"
+LBL.TextColor3 = Color3.new(1, 1, 1)
+LBL.TextScaled = true
+LBL.TextSize = 14
+LBL.TextWrapped = true
+LBL.Visible = true
 
---传送与甩飞玩家
-function shuaxinlb(zji)
-    LS.dropdown = {}
-    if zji == true then
-        for _, player in pairs(game.Players:GetPlayers()) do
-            table.insert(LS.dropdown, player.Name)
-        end
-    else
-        local lp = game.Players.LocalPlayer
-        for _, player in pairs(game.Players:GetPlayers()) do
-            if player ~= lp then
-                table.insert(LS.dropdown, player.Name)
-            end
-        end
+local FpsLabel = LBL
+local Heartbeat = game:GetService("RunService").Heartbeat
+local LastIteration, Start
+local FrameUpdateTable = { }
+
+local function HeartbeatUpdate()
+    LastIteration = tick()
+    for Index = #FrameUpdateTable, 1, -1 do
+        FrameUpdateTable[Index + 1] = (FrameUpdateTable[Index] >= LastIteration - 1) and FrameUpdateTable[Index] or nil
     end
+    FrameUpdateTable[1] = LastIteration
+    local CurrentFPS = (tick() - Start >= 1 and #FrameUpdateTable) or (#FrameUpdateTable / (tick() - Start))
+    CurrentFPS = CurrentFPS - CurrentFPS % 1
+    FpsLabel.Text = ("北京时间:"..os.date("%H").."时"..os.date("%M").."分"..os.date("%S"))
 end
-shuaxinlb(true)
-
-function Notify(top, text, ico, dur)
-  game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = top,
-    Text = text,
-    Icon = ico,
-    Duration = dur,
-  })
-end
-
 Start = tick()
-game:GetService("StarterGui"):SetCore("SendNotification", { 	Title = "IIF v1.3脚本";	Text = "感谢大家使用IIF v1.3脚本";	Icon = "rbxthumb://type=Asset&id=13775452736&w=150&h=150"})Duration = 15;
-end)
-
-Start = tick()
-game:GetService("StarterGui"):SetCore("SendNotification", { 	Title = "风御才是作者";	Text = "IIF脚本才是我做的";	Icon = "rbxthumb://type=Asset&id=13775452736&w=150&h=150"})Duration = 2;
-end)
+Heartbeat:Connect(HeartbeatUpdate)
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "IIF v1.3脚本"; Text ="感谢大家使用IIF v1.3脚本"; Duration = 2; })
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/IIFNGZ2099/IIF-/refs/heads/main/IIF%E7%9A%84Ui%E6%BA%90%E7%A0%81(1).lua"))();  
 local win = ui:new("IIF v1.3脚本中心")
 
@@ -98,7 +86,7 @@ local about = UITab2:section("『公告』",true)
 
 about:Label("感谢所有支持IIF脚本的人")
 about:Label("主脚本作者『我也觉得很巧』")
-about:Label("副作者『风御 X』")  
+about:Label("副作者『叉烧包(风御 X』")  
 about:Label("感谢一些朋友『无名氏👻     南瓜   懒惰之神』") 
 
 local UITab1 = win:Tab("『通用』",'6031097229')
@@ -383,109 +371,6 @@ end)
 about:Button("反挂机",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/9fFu43FF"))()
 end)
-
-local UITab1 = win:Tab("『传送』",'6031097229')
-
-local about = UITab1:section("『传送』",true)
-local dropdown = {}
-local playernamedied = ""
-local teleportConnection
-local behindTeleportDistance = 3 
-local headTeleportHeight = 4 
-
-
-for i, player in pairs(game.Players:GetPlayers()) do
-    dropdown[i] = player.Name
-end
-
-
-function Notify(top, text, ico, dur)
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = top,
-        Text = text,
-        Icon = ico,
-        Duration = dur,
-    })
-end
-
-local Players = credits:Dropdown("选择玩家的名称", 'Dropdown', LS.dropdown, function(v)
-    LS.playernamedied = v
-end)
-
-about:Button("刷新玩家名称", function()
-    shuaxinlb(true)
-    Players:SetOptions(LS.dropdown)
-end)
-
-about:Button("传送到玩家旁边", function()
-    local HumRoot = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local tp_player = game.Players:FindFirstChild(LS.playernamedied)
-    if tp_player and tp_player.Character and tp_player.Character.HumanoidRootPart then
-        HumRoot.CFrame = tp_player.Character.HumanoidRootPart.CFrame + Vector3.new(0, 3, 0)
-        Notify("IIF", "已传送到玩家旁边", "rbxassetid://84830962019412", 5)
-    else
-        Notify("IIF", "无法传送 玩家已消失", "rbxassetid://84830962019412", 5)
-    end
-end)
-
-about:Toggle("锁定传送", "Loop", false, function(state)
-    if state then
-        LS.LoopTeleport = true
-        Notify("IIF", "已开启循环传送", "rbxassetid://84830962019412", 5)
-        while LS.LoopTeleport do
-            local HumRoot = game.Players.LocalPlayer.Character.HumanoidRootPart
-            local tp_player = game.Players:FindFirstChild(LS.playernamedied)
-            if tp_player and tp_player.Character and tp_player.Character.HumanoidRootPart then
-                HumRoot.CFrame = tp_player.Character.HumanoidRootPart.CFrame + Vector3.new(0, 3, 0)
-            end
-            wait()
-        end
-    else
-        LS.LoopTeleport = false
-        Notify("IIF", "已关闭循环传送", "rbxassetid://84830962019412", 5)
-    end
-end)
-
-about:Button("把玩家传送过来", function()
-    local HumRoot = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local tp_player = game.Players:FindFirstChild(LS.playernamedied)
-    if tp_player and tp_player.Character and tp_player.Character.HumanoidRootPart then
-        tp_player.Character.HumanoidRootPart.CFrame = HumRoot.CFrame + Vector3.new(0, 3, 0)
-        Notify("IIF", "已将玩家传送过来", "rbxassetid://84830962019412", 5)
-    else
-        Notify("IIF", "无法传送 玩家已消失", "rbxassetid://84830962019412", 5)
-    end
-end)
-
-about:Toggle("循环传送玩家过来", "Loop", false, function(state)
-    if state then
-        LS.LoopTeleport = true
-        Notify("IIF", "已开启循环传送玩家过来", "rbxassetid://84830962019412", 5)
-        while LS.LoopTeleport do
-            local HumRoot = game.Players.LocalPlayer.Character.HumanoidRootPart
-            local tp_player = game.Players:FindFirstChild(LS.playernamedied)
-            if tp_player and tp_player.Character and tp_player.Character.HumanoidRootPart then
-                tp_player.Character.HumanoidRootPart.CFrame = HumRoot.CFrame + Vector3.new(0, 3, 0)
-            end
-            wait()
-        end
-    else
-        LS.LoopTeleport = false
-        Notify("IIF", "已关闭循环传送玩家过来", "rbxassetid://84830962019412", 5)
-    end
-end)
-
-about:Toggle("查看玩家", "look player", false, function(state)
-    if state then
-        game:GetService('Workspace').CurrentCamera.CameraSubject =
-            game:GetService('Players'):FindFirstChild(LS.playernamedied).Character.Humanoid
-        Notify("IIF", "已开启查看玩家", "rbxassetid://84830962019412", 5)
-    else
-        local lp = game.Players.LocalPlayer
-        game:GetService('Workspace').CurrentCamera.CameraSubject = lp.Character.Humanoid
-        Notify("IIF", "已关闭查看玩家", "rbxassetid://84830962019412", 5)
-    end
-end)   
 
 local UITab1 = win:Tab("『情云同款可调节自瞄』",'6031097229')
 
