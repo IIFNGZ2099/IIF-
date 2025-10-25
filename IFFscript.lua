@@ -1790,3 +1790,15 @@ end)
 about:Button("需要卡密功能未知😱",function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))()
 end)
+
+local UITab1 = win:Tab("『英雄战场』",'101787917628382')
+
+local about = UITab1:section("『英雄战场』",true)
+
+about:Button("不需要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/solarastuff/hbg/refs/heads/main/academic.lua"))()
+end)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NexorHub/Games/refs/heads/main/Universal/Scripts.lua'))()
+end)
