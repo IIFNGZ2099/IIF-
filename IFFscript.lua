@@ -1114,42 +1114,6 @@ about:Button("林",function()
 lin = "作者林"lin ="林QQ群 747623342"loadstring(game:HttpGet("https://raw.githubusercontent.com/linnblin/lin/main/lin"))()
 end)
 
-about:Button("叶",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/ROBLOX-YE-SCRIPT-XIAOYE.lua"))()
-end)
-
-about:Button("冷",function()
-getgenv().Leng="冷脚本QQ群815883059" loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglenglenglenglenglenglenglenglenglenglenglenglenglenglengleng/refs/heads/main/LENG script co
-end)
-
-about:Button("丁丁",function()
-loadstring(game:HttpGet("https://shz.al/meCG"))()
-end)
-
-about:Button("安",function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/wucan114514/gegeyxjb/main/oww')))()
-end)
-
-about:Button("阎魔",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/liaozhsaaa/-/main/阎罗.txt"))()
-end)
-
-about:Button("中心",function()
-loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\101\109\120\72\119\65\49"))()
-end)
-
-about:Button("黑洞",function()
-loadstring(game:HttpGet("https://gh.llkk.cc/https://raw.githubusercontent.com/BOOSBS/BS/refs/heads/main/BS/Black Hole Script/BS"))()
-end)
-
-about:Button("破解林",function()
-AL = "Advanced Logic团队破解"loadstring(game:HttpGet("https://raw.githubusercontent.com/longshu886/longscript/main/linpojie"))()
-end)
-
-about:Button("鹤",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/qazpin66/-/refs/heads/main/鹤1.5.lua"))()
-end)
-
 local UITab1 = win:Tab("『鱼 Fish』",'97947851433456')
 
 local about = UITab1:section("『鱼 Fish』",true)
