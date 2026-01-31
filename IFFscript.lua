@@ -396,6 +396,10 @@ local UITab1 = win:Tab("『巴掌模拟器』",'118134935044968')
 
 local about = UITab1:section("『巴掌模拟器』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("巴掌服务器通用",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
   end)
@@ -919,6 +923,10 @@ local UITab1 = win:Tab("『 BF脚本』",'79951360331133')
 
 local about = UITab1:section("『BF』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("R开头的脚本",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
   end)
@@ -930,6 +938,10 @@ end)
 local UITab1 = win:Tab("『SA』",'76678953352170')
 
 local about = UITab1:section("『SA』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("打boss攻速脚本",function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyouranya/free/main/Anya%20Stands%20Awakening%20Helper.lua'),true))()
@@ -950,6 +962,10 @@ end)
 local UITab1 = win:Tab("『伐木大亨2』",'72843415526380')
 
 local about = UITab1:section("『伐木大亨2』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("伐木大亨2脚本英文",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
@@ -1114,9 +1130,49 @@ about:Button("林",function()
 lin = "作者林"lin ="林QQ群 747623342"loadstring(game:HttpGet("https://raw.githubusercontent.com/linnblin/lin/main/lin"))()
 end)
 
+about:Button("叶",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/ROBLOX-YE-SCRIPT-XIAOYE.lua"))()
+end)
+
+about:Button("冷",function()
+getgenv().Leng="冷脚本QQ群815883059" loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglenglenglenglenglenglenglenglenglenglenglenglenglenglengleng/refs/heads/main/LENG script co
+end)
+
+about:Button("丁丁",function()
+loadstring(game:HttpGet("https://shz.al/meCG"))()
+end)
+
+about:Button("安",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/wucan114514/gegeyxjb/main/oww')))()
+end)
+
+about:Button("阎魔",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/liaozhsaaa/-/main/阎罗.txt"))()
+end)
+
+about:Button("中心",function()
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\101\109\120\72\119\65\49"))()
+end)
+
+about:Button("黑洞",function()
+loadstring(game:HttpGet("https://gh.llkk.cc/https://raw.githubusercontent.com/BOOSBS/BS/refs/heads/main/BS/Black Hole Script/BS"))()
+end)
+
+about:Button("破解林",function()
+AL = "Advanced Logic团队破解"loadstring(game:HttpGet("https://raw.githubusercontent.com/longshu886/longscript/main/linpojie"))()
+end)
+
+about:Button("鹤",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/qazpin66/-/refs/heads/main/鹤1.5.lua"))()
+end)
+
 local UITab1 = win:Tab("『鱼 Fish』",'97947851433456')
 
 local about = UITab1:section("『鱼 Fish』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("乌托邦",function()
 loadstring(game:HttpGet("https://pastefy.app/M1Ns2Ggo/raw"))()
@@ -1130,12 +1186,20 @@ local UITab1 = win:Tab("『忍者传奇』",'116926565208108')
 
 local about = UITab1:section("『忍者传奇』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("不知道好不好用的忍者传奇脚本",function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Rolly-Hub-I-6-GAMES-SUPPORTED-4511"))()
 end)
 local UITab1 = win:Tab("『Doors』",'87975721069686')
 
 local about = UITab1:section("『Doors』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("由白星星提供",function()
 loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
@@ -1144,6 +1208,10 @@ end)
 local UITab1 = win:Tab("『战争大亨』",'97001718566439')
 
 local about = UITab1:section("『战争大亨』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("战争大亨透视脚本锁头",function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Gripen-War-Tycoon-White-hub-beta-28323"))()
@@ -1205,6 +1273,10 @@ local UITab1 = win:Tab("『最强战场』",'104305363154481')
 
 local about = UITab1:section("『最强战场』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("粘到别人脚底下卡密：RoscriptsOnTop",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RealOfficialSkully/Smm/main/Smm"))()
 end)
@@ -1216,6 +1288,10 @@ end)
 local UITab1 = win:Tab("『河北唐县』",'75185651600701')
 
 local about = UITab1:section("『河北唐县』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("河北唐县-皮",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/Pi-script-Hebeitangxian.lua"))()
@@ -1312,6 +1388,10 @@ local UITab1 = win:Tab("『监狱人生』",'130598687725760')
 
 local about = UITab1:section("『监狱人生』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("监狱人生黑人管理菜单部分英文",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/LnAUPBXj",true))()
 end)
@@ -1328,6 +1408,10 @@ local UITab1 = win:Tab("『GB』",'96742478010816')
 
 local about = UITab1:section("『GB』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("中文汉化好用的脚本",function()
 local SCC_CharPool={[1]= tostring(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,51,55,116,67,82,116,117,109})end)()))}loadstring(game:HttpGet(SCC_CharPool[1]))()
 end)
@@ -1336,6 +1420,10 @@ local UITab1 = win:Tab("『Dig it』",'134964481941769')
 
 local about = UITab1:section("『Dig ti』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("需要卡密，但很简单",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/loader", true))()
 end)
@@ -1343,6 +1431,10 @@ end)
 local UITab8 = win:Tab("『超级大力士模拟器』",'131618946289350')
 
 local about = UITab8:section("『超级大力士模拟器』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
     
 about:Button("超级大力士模拟器1",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0strongman", true))()
@@ -1456,6 +1548,10 @@ local UITab9 = win:Tab("『河北唐县』",'75185651600701')
 
 local about = UITab9:section("『河北唐县』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("传送到警察局", function()
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5513.97412109375, 8.656171798706055, 4964.291015625)
 end)
@@ -1475,6 +1571,10 @@ end)
  local UITab1 = win:Tab("『力量传奇』",'127747433884973')
 
 local about = UITab1:section("『力量传奇』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("力量传奇",function()
 
@@ -1602,6 +1702,10 @@ local UITab1 = win:Tab("『死铁轨』",'138837696529548')
 
 local about = UITab1:section("『死铁轨』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("小狗",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
 end)
@@ -1626,6 +1730,10 @@ local UITab1 = win:Tab("『未命名的拳击手』",'127960551060150')
 
 local about = UITab1:section("『未命名的拳击手』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("油管红豆v0.5",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/pid4k/scripts/refs/heads/main/untitledboxinggame.lua', true))()
 end)
@@ -1642,6 +1750,10 @@ local UITab1 = win:Tab("『New Cars!] VehicleLegends o0! Cars!』",'122171690766
 
 local about = UITab1:section("『New Cars!] VehicleLegends o0! Cars!』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("需要卡密功能较多",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/Vehicle%20legends"))()
 end)
@@ -1649,6 +1761,10 @@ end)
 local UITab1 = win:Tab("『后悔电梯』",'78206781133494')
 
 local about = UITab1:section("『后悔电梯』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("自动农场刷钱",function()
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
@@ -1723,6 +1839,10 @@ local UITab1 = win:Tab("『餐厅大亨2』",'86195665707663')
 
 local about = UITab1:section("『餐厅大亨2』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("餐厅大亨2巴西作者",function()
 loadstring(game:HttpGet("http://bit.ly/4ehWGuQ"))()
 end)
@@ -1730,6 +1850,10 @@ end)
 local UITab1 = win:Tab("『rock fruits』",'82779219776863')
 
 local about = UITab1:section("『rock fruits』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("Linkvertise里偷的要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/romoneand/RockFruit/refs/heads/main/NewMain"))()
@@ -1743,6 +1867,10 @@ local UITab1 = win:Tab("『(SALEEN S7 + 4TH OF JULY!) Greenville』",'8296693188
 
 local about = UITab1:section("『(SALEEN S7 + 4TH OF JULY!) Greenville』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("英文自动农场要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8643/test/main/green"))()
 end)
@@ -1751,6 +1879,10 @@ local UITab1 = win:Tab("『汽车破坏机2』",'70578822456650')
 
 local about = UITab1:section("『汽车破坏机2』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("功能较齐全外网大神制作",function()
 loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/49f02b0d8c1f60207c84ae76e12abc1e.lua'))()
 end)
@@ -1758,6 +1890,10 @@ end)
 local UITab1 = win:Tab("『驾驶帝国』",'79958207426262')
 
 local about = UITab1:section("『驾驶帝国』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenniel123/Driving-Empire/refs/heads/main/Driving%20Empire%20AutoFarm%20Freemium"))()
@@ -1771,6 +1907,10 @@ local UITab1 = win:Tab("『一路向西』",'106992945201087')
 
 local about = UITab1:section("『一路向西』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("一路向西SH",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/westbound.pro-Utilites/main/Main.lua"))()
 end)
@@ -1783,6 +1923,10 @@ local UITab1 = win:Tab("『鱿鱼游戏』",'138948762420025')
 
 local about = UITab1:section("『鱿鱼游戏』",true)
 
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
+
 about:Button("不需要卡密好用",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua"))()
 end)
@@ -1794,6 +1938,10 @@ end)
 local UITab1 = win:Tab("『英雄战场』",'101787917628382')
 
 local about = UITab1:section("『英雄战场』",true)
+
+about:Button("TX翻译先点这个",function()
+TX = "TX Script"Script = "全自动翻译"loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/Auto-language"))()
+end)
 
 about:Button("不需要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/solarastuff/hbg/refs/heads/main/academic.lua"))()
