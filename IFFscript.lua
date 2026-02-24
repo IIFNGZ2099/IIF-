@@ -1598,6 +1598,10 @@ local args = {
 game:GetService("ReplicatedStorage").Events.Player.ChangePlayerMode:FireServer(unpack(args))
 end)
 
+about:Button("躲避加刷任务道具",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EvadeEvent"))()
+end)
+
 local UITab1 = win:Tab("『死铁轨』",'138837696529548')
 
 local about = UITab1:section("『死铁轨』",true)
@@ -1801,4 +1805,25 @@ end)
 
 about:Button("需要卡密",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/NexorHub/Games/refs/heads/main/Universal/Scripts.lua'))()
+end)
+
+local UITab1 = win:Tab("『逃离海啸，获得脑红』",'82652692678031')
+
+local about = UITab1:section("『逃离海啸，获得脑红』",true)
+
+about:Button("无敌脚本",function()
+这期不用投币，新年快乐
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/d8185b175524d935b4a6026c784375fc.lua"))()
+end)
+
+about:Button("周六周天不需要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kedd063/KdmlScripts/refs/heads/main/EscapeTsunamiForBrainrotsV4"))()
+end)
+
+about:Button("不需要卡密",function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2813836d650c6fc88ba179fd86254d25.lua"))()
+end)
+
+about:Button("不需要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArthurMorgannnn/script/refs/heads/main/script", true))()
 end)
