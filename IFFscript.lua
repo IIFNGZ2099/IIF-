@@ -1827,7 +1827,7 @@ about:Button("不需要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ArthurMorgannnn/script/refs/heads/main/script", true))()
 end)
 
-local UITab1 = win:Tab("『ROB IT』",'134700342216081')
+local UITab1 = win:Tab("『ROB IT』",'90522276208326')
 
 local about = UITab1:section("『ROB IT』",true)
 
@@ -1837,4 +1837,20 @@ end)
 
 about:Button("无卡密，一般不是很好用",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/agentstojak/ROB-IT/refs/heads/main/ROB%20IT"))()
+end)
+
+local UITab1 = win:Tab("『终极战场』",'81545748821099')
+
+local about = UITab1:section("『终极战场（爱吃西瓜的人😋提供了一些😱🤔😱😱😱』",true)
+
+about:Button("老外",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/samuraa1/Solara-Hub/refs/heads/main/SH.lua'))()
+end)
+
+about:Button("老外",function()
+loadstring(game:HttpGet("https://eltonshub-loader.netlify.app/UBG1.lua"))()
+end)
+
+about:Button("xi_Pro",function()
+loadstring(game:HttpGet("http://raw.githubusercontent.com/123fa98/Xi_Pro/refs/heads/main/免费/终极战场.lua"))()
 end)
