@@ -1812,7 +1812,6 @@ local UITab1 = win:Tab("『逃离海啸，获得脑红』",'82652692678031')
 local about = UITab1:section("『逃离海啸，获得脑红』",true)
 
 about:Button("无敌脚本",function()
-这期不用投币，新年快乐
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/d8185b175524d935b4a6026c784375fc.lua"))()
 end)
 
