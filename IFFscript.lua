@@ -1602,6 +1602,10 @@ about:Button("躲避加刷任务道具",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EvadeEvent"))()
 end)
 
+about:Button("小鳄鱼超好用，不需要卡密",function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\67\79\79\76\88\80\76\79\47\68\80\45\72\85\66\45\99\111\111\108\120\112\108\111\47\114\101\102\115\47\104\101\97\100\115\47\109\97\105\110\47\69\118\97\100\101\46\108\117\97\34\41\41\40\41")()
+end)
+
 local UITab1 = win:Tab("『死铁轨』",'138837696529548')
 
 local about = UITab1:section("『死铁轨』",true)
@@ -1827,7 +1831,7 @@ about:Button("不需要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ArthurMorgannnn/script/refs/heads/main/script", true))()
 end)
 
-local UITab1 = win:Tab("『ROB IT』",'90522276208326')
+local UITab1 = win:Tab("『ROB IT』",'107602540982517')
 
 local about = UITab1:section("『ROB IT』",true)
 
@@ -1839,7 +1843,7 @@ about:Button("无卡密，一般不是很好用",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/agentstojak/ROB-IT/refs/heads/main/ROB%20IT"))()
 end)
 
-local UITab1 = win:Tab("『终极战场』",'81545748821099')
+local UITab1 = win:Tab("『终极战场』",'73066415358077')
 
 local about = UITab1:section("『终极战场（爱吃西瓜的人😋提供了一些😱🤔😱😱😱』",true)
 
@@ -1853,4 +1857,24 @@ end)
 
 about:Button("xi_Pro",function()
 loadstring(game:HttpGet("http://raw.githubusercontent.com/123fa98/Xi_Pro/refs/heads/main/免费/终极战场.lua"))()
+end)
+
+local UITab1 = win:Tab("『格林维尔』",'93930493344323')
+
+local about = UITab1:section("『由jia测试』",true)
+
+about:Button("不需要卡密好用，有刷钱",function()
+loadstring(game:HttpGet("https://github.com/brettrm001-scripts/greenville/releases/latest/download/main.lua"))()
+end)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/1dadcd8146c714b1e8bf678187c5025aaea900b6bc3e8f1330fb81f861323f7c/download"))()
+end)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://keysystem.work.ink/scripts/019c7c42-fb97-7581-b39d-00ed89a952b5"))()
+end)
+
+about:Button("不需要卡密，但是功能单一",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xinnernowy/yes/refs/heads/main/0d54b0d64e3816cc.lua"))()
 end)
