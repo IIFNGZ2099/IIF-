@@ -1826,3 +1826,15 @@ end)
 about:Button("不需要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ArthurMorgannnn/script/refs/heads/main/script", true))()
 end)
+
+local UITab1 = win:Tab("『ROB IT』",'134700342216081')
+
+local about = UITab1:section("『ROB IT』",true)
+
+about:Button("很好用，无卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XVCHub/Games/main/robit"))()
+end)
+
+about:Button("无卡密，一般不是很好用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/agentstojak/ROB-IT/refs/heads/main/ROB%20IT"))()
+end)
