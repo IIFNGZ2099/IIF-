@@ -84,10 +84,10 @@ local UITab2 = win:Tab("『公告』",'6031097229')
 
 local about = UITab2:section("『公告』",true)
 
-about:Label("感谢所有支持IIF脚本的人")
+about:Label("感谢所有支持IIF脚本的人  由衷的感谢一些管理 jia  ")
 about:Label("主脚本作者『我也觉得很巧』")
 about:Label("副作者『叉烧包(风御 X』")  
-about:Label("感谢一些朋友『无名氏👻     南瓜   懒惰之神』") 
+about:Label("感谢一些朋友『无名氏👻    jia』") 
 
 local UITab1 = win:Tab("『通用』",'6031097229')
 
@@ -1901,4 +1901,36 @@ end)
 
 about:Button("需要卡密2",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Artem1093z/ScriptsGo/refs/heads/main/RandomYbaScript"))()
+end)
+
+local UITab1 = win:Tab("『被遗弃』",'111647069323807')
+
+local about = UITab1:section("『感谢jia的测试』",true)
+
+about:Button("据传言挺好用的",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/Forsaken-Script/refs/heads/main/lua"))()
+end)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/81aa13a754bdf816b17af79a76653992.lua"))()
+end)
+
+local UITab1 = win:Tab("『鲨鱼咬2』",'93220711058254')
+
+local about = UITab1:section("『鲨鱼咬2』",true)
+
+about:Button("不需要卡密，非常好用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mafuasahina/whatever/main/sharkbite2"))()
+end)
+
+local UITab1 = win:Tab("『死亡之死』",'6031097229')
+
+local about = UITab1:section("『死亡之死』",true)
+
+about:Button("不用卡密BY很好用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Edulucas2013/Byby-hub/refs/heads/main/Die%20Of%20Death%20byby%20hub"))()
+end)
+
+about:Button("也很好用不用卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vsec3/nyxerhub/refs/heads/main/nyxerhub.lua"))()
 end)
