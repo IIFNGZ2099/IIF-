@@ -1878,3 +1878,27 @@ end)
 about:Button("不需要卡密，但是功能单一",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xinnernowy/yes/refs/heads/main/0d54b0d64e3816cc.lua"))()
 end)
+
+local UITab1 = win:Tab("『你的奇妙冒险（YBA）』",'124231731120226')
+
+local about = UITab1:section("『YBA』",true)
+
+about:Button("很好用可用自动捡东西农场升级农场暂不可用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/weatherwess-lgtm/Azure/refs/heads/main/ZuAzure.Hub"))()
+end)
+
+about:Button("母狗男孩😂😂😂😂",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/MainGui.lua"))()
+end)
+
+about:Button("电脑可用",function()
+loadstring(game:HttpGet("https://gitlab.com/sens3/nebunu/-/raw/main/sillybaka/thething.lua?ref_type=heads"))()
+end)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XQwart/STK-HUB/refs/heads/main/YBA.lua"))()
+end)
+
+about:Button("需要卡密2",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Artem1093z/ScriptsGo/refs/heads/main/RandomYbaScript"))()
+end)
