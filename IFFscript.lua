@@ -1114,6 +1114,22 @@ about:Button("林",function()
 lin = "作者林"lin ="林QQ群 747623342"loadstring(game:HttpGet("https://raw.githubusercontent.com/linnblin/lin/main/lin"))()
 end)
 
+about:Button("皮",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/QQ1002100032-Roblox-Pi-script.lua"))()
+end)
+
+about:Button("鹤",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/qazpin66/-/refs/heads/main/鹤1.5.lua"))()
+end)
+
+about:Button("皇",function()
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\80\100\84\55\99\65\82\84"))()
+end)
+
+about:Button("阎罗",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/liaozhsaaa/-/main/阎罗.txt"))()
+end)
+
 local UITab1 = win:Tab("『鱼 Fish』",'97947851433456')
 
 local about = UITab1:section("『鱼 Fish』",true)
@@ -1923,7 +1939,7 @@ about:Button("不需要卡密，非常好用",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/mafuasahina/whatever/main/sharkbite2"))()
 end)
 
-local UITab1 = win:Tab("『死亡之死』",'6031097229')
+local UITab1 = win:Tab("『死亡之死』",'90330098293182')
 
 local about = UITab1:section("『死亡之死』",true)
 
@@ -1933,4 +1949,52 @@ end)
 
 about:Button("也很好用不用卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vsec3/nyxerhub/refs/heads/main/nyxerhub.lua"))()
+end)
+
+local UITab1 = win:Tab("『南极探险队』",'108480608367281')
+
+local about = UITab1:section("『南极探险队』",true)
+
+about:Button("好用，无卡密",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/samuraa1/Samuraa1-Hub/refs/heads/main/Loader.lua'))()
+end)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://pastefy.app/xQwQzwns/raw"))()
+end)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://raw.gatinero.xyz/main.lua"))()
+end)
+
+local UITab1 = win:Tab("『恐怖电梯』",'84624378296489')
+
+local about = UITab1:section("『恐怖电梯，推荐搭配个飞行来用』",true)
+
+about:Button("获得音响和消除枪",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/vE8WMLit'),true))()
+end)
+
+local UITab1 = win:Tab("『恐鬼症』",'105151219065449')
+
+local about = UITab1:section("『恐鬼症』",true)
+
+about:Button("群员提供",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Chavels123/Loader/refs/heads/main/loader.lua"))()
+end)
+
+local UITab1 = win:Tab("『长途旅行』",'77106321495553')
+
+local about = UITab1:section("『长途旅行』",true)
+
+about:Button("群员提供",function()
+loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/6531b6a72ae0aead09828610d8a62bf45be2c69f2dcacae2eb9321e3d7714836/download"))()
+end)
+
+local UITab1 = win:Tab("『紧急汉堡强』",'103940114354934')
+
+local about = UITab1:section("『紧急汉堡强』",true)
+
+about:Button("群员提供需要卡密",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Merdooon/skibidi-sigma-spec-ter/refs/heads/main/specter')))()
 end)
