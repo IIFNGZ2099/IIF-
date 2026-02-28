@@ -2002,3 +2002,11 @@ local about = UITab1:section("『紧急汉堡强』",true)
 about:Button("群员提供需要卡密",function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Merdooon/skibidi-sigma-spec-ter/refs/heads/main/specter')))()
 end)
+
+local UITab1 = win:Tab("『在51区』",'74554874320280')
+
+local about = UITab1:section("『在51区』",true)
+
+about:Button("英文有卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KGuestCheatsJ2/Sc/refs/heads/main/AB51"))()
+end)
