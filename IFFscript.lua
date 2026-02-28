@@ -1153,6 +1153,14 @@ local UITab1 = win:Tab("『Doors』",'87975721069686')
 
 local about = UITab1:section("『Doors』",true)
 
+about:Button("中文好用（由不知道叫什么名字提供）",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XxwanhexxX/Scripts/refs/heads/main/OrangeHub'))()
+end)
+
+about:Button("英文无卡密",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/f7rFZCrB"))()
+end)
+
 about:Button("由白星星提供",function()
 loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
 end)
