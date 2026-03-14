@@ -222,14 +222,6 @@ about:Toggle("无限跳","Toggle",false,function(Value)
         end)
     end)
 
-about:Slider("步行速度!", "WalkSpeed", game.Players.LocalPlayer.Character.Humanoid.WalkSpeed, 16, 400, false, function(Speed)
-  spawn(function() while task.wait() do game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Speed end end)
-end)
-
-about:Slider("跳跃高度!", "JumpPower", game.Players.LocalPlayer.Character.Humanoid.JumpPower, 50, 400, false, function(Jump)
-  spawn(function() while task.wait() do game.Players.LocalPlayer.Character.Humanoid.JumpPower = Jump end end)
-end)
-
 about:Button("甩人",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
 end)
@@ -2009,4 +2001,48 @@ local about = UITab1:section("『在51区』",true)
 
 about:Button("英文有卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KGuestCheatsJ2/Sc/refs/heads/main/AB51"))()
+end)
+
+local UITab1 = win:Tab("『发射火箭』",'138461075743286')
+
+local about = UITab1:section("『发射火箭』",true)
+
+about:Button("好用英文卡密在下面自己复制",function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Launch-Your-Rocket-Op-Inf-Money-Free-Upgrades-Auto-Farm-127505"))()
+end)
+
+about:Button("点击复制卡密",function()
+setclipboard("SANDMAN-SCRIPTS-GG")
+end)
+
+local UITab1 = win:Tab("『在披萨店工作』",'128268033681772')
+
+local about = UITab1:section("『在披萨店工作』",true)
+
+about:Button("好用，不需要卡密，无刷钱",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/idislikebluecheese/MangoHubScripts/refs/heads/main/watpp.lua'))()
+end)
+
+about:Button("功能单一，但有刷钱",function()
+loadstring(game:HttpGet('https://pastefy.app/31QRTZYB/raw'))()
+end)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/welomenchaina/Loader/refs/heads/main/ScriptLoader",true))()
+end)
+
+local UITab1 = win:Tab("『破坏者谜团2』",'111075233463525')
+
+local about = UITab1:section("『破坏者谜团2』",true)
+
+about:Button("不需要卡密，好用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FalcnHub/FalconHub/refs/heads/main/MurderMystery2_Falcn.Lua"))()
+end)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/welomenchaina/Loader/refs/heads/main/ScriptLoader",true))()
+end)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ingl71/uaeehub/refs/heads/main/mm2.lua"))()
 end)
