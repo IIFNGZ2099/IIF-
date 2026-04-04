@@ -2077,3 +2077,43 @@ end)
 about:Button("要卡密",function()
 loadstring(game:HttpGet("https://pastefy.app/MGNygmsm/raw"))()
 end)
+
+local UITab1 = win:Tab("『无限旅馆』",'84717234196025')
+
+local about = UITab1:section("『无限旅馆』",true)
+
+about:Button("不太好用，但有透视啥的",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/petaschoolscr/Petapetaschool/refs/heads/main/obf_Ci1HEvK8VD8f3DfeoPJQ028d50KcIUyx5tbRl030TU5GTs0YaITUDxm45pLa2rX7.txt"))()
+end)
+
+about:Button("能用",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/L0smJ0Yq"))()
+end)
+
+about:Button("最好用的一个",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LanFouWyne/Astralux/refs/heads/main/Astralux-protected.lua"))() 
+end)
+
+local UITab1 = win:Tab("『通用时间』",'133370307694863')
+
+local about = UITab1:section("『通用时间』",true)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34824c86db1eba5e5e39c7c2d6d7fdfe.lua"))()
+end)
+
+about:Button("卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AkatsukiHub1/A-Universal-Time/refs/heads/main/README.md"))()
+end)
+
+about:Button("加载时间过长",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/fbta5b8L", true))()
+end)
+
+local UITab1 = win:Tab("『摊位世界』",'117753921057038')
+
+local about = UITab1:section("『摊位世界』",true)
+
+about:Button("需要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxScriptHub/MikeyHub-V2/main/Loader/Main"))()
+end)
