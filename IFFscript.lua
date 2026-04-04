@@ -1153,6 +1153,13 @@ about:Button("英文好用无卡密",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/f7rFZCrB"))()
 end)
 
+about:Button("闪电",function()
+getgenv().SCRIPT_KEY = "im sorry for the lag when you load this lol"
+--Copy this ^^^^^^^^^^^^^^^^^^^^^^^^^^^ (you can change the key's name to what ever you want)
+
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/4192419a355cd0233b7416f498b78b91eb87bfb6123a4d214a2aa1e9243c6c72/download"))()
+end)
+
 local UITab1 = win:Tab("『战争大亨』",'97001718566439')
 
 local about = UITab1:section("『战争大亨』",true)
@@ -2045,4 +2052,28 @@ end)
 
 about:Button("需要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ingl71/uaeehub/refs/heads/main/mm2.lua"))()
+end)
+
+local UITab1 = win:Tab("『森林中99夜』",'76552040449380')
+
+local about = UITab1:section("『森林中99夜』",true)
+
+about:Button("好用不需要卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/loader.lua", true))()
+end)
+
+about:Button("泰语小丑不想看你，看懂的就用",function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/61d67426af8207b22bde1afb308d9ff4.lua"))()
+end)
+
+about:Button("自动找蛋，复活节需要自己点自己开阔地图",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/fM4MyLWf"))()
+end)
+
+about:Button("要卡密，瘾君子",function()
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/76de2fac4bc84e24e568f0b6de1bd54764eab615b4e428f89429bd823d598d7a/download"))()
+end)
+
+about:Button("要卡密",function()
+loadstring(game:HttpGet("https://pastefy.app/MGNygmsm/raw"))()
 end)
