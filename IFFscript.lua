@@ -2117,3 +2117,31 @@ local about = UITab1:section("『摊位世界』",true)
 about:Button("需要卡密",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxScriptHub/MikeyHub-V2/main/Loader/Main"))()
 end)
+
+local UITab1 = win:Tab("『刀刃球』",'92779004877939')
+
+local about = UITab1:section("『刀刃球』",true)
+
+about:Button("可以用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/COOLXPLO/DP-HUB-coolxplo/refs/heads/main/bladeball.lua"))()
+end)
+
+about:Button("可以用UI太烂",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MriseHubX/main/refs/heads/main/BladeBall"))()
+end)
+
+about:Button("卡密",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LawsHub/loader/refs/heads/main/loader.lua"))()
+end)
+
+local UITab1 = win:Tab("『蜂群模拟器』",'100876298214955')
+
+local about = UITab1:section("『蜂群模拟器』",true)
+
+about:Button("好用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Chris12089/atlasbss/main/script.lua"))()
+end)
+
+about:Button(" UI挺高级，不怎么使用",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1toop/bss/main/toopsassistant.lua"))()
+end)
