@@ -2145,3 +2145,51 @@ end)
 about:Button(" UI挺高级，不怎么使用",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/1toop/bss/main/toopsassistant.lua"))()
 end)
+
+local UITab1 = win:Tab("『下一个机器人』",'75017152281814')
+
+local about = UITab1:section("『下一个机器人』",true)
+
+about:Button("下一个机器人",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fcsdsss/games/refs/heads/main/nico's%20nextbots.lua"))()
+end)
+
+local UITab1 = win:Tab("『木筏求生』",'127128346428994')
+
+local about = UITab1:section("『木筏求生』",true)
+
+about:Button("木筏求生",function()
+loadstring(game:HttpGet("https://pastefy.app/Ft7Xa0SQ/raw"))()
+end)
+
+local UITab1 = win:Tab("『刀战竞技场』",'97126121782073')
+
+local about = UITab1:section("『刀战竞技场』",true)
+
+about:Button("刀战竞技场",function()
+loadstring(game:HttpGet("https://pastefy.app/Ft7Xa0SQ/raw"))()
+end)
+
+local UITab1 = win:Tab("『动感星期五』",'120249228682679')
+
+local about = UITab1:section("『动感星期五』",true)
+
+about:Button("动感星期五",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Fire-Hub/main/Loader"))()
+end)
+
+local UITab1 = win:Tab("『喂养宠物』",'125296622180766')
+
+local about = UITab1:section("『喂养宠物』",true)
+
+about:Button("喂养宠物",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/gEV1mWLX"))()
+end)
+
+local UITab1 = win:Tab("『bloxloot』",'93278897103224')
+
+local about = UITab1:section("『bloxloot』",true)
+
+about:Button("bloxloot",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/BloxLoot"))()
+end)
